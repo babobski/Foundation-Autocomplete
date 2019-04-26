@@ -1,0 +1,6 @@
+content foundation_auto content/
+overlay chrome://komodo/content/komodo.xul chrome://foundation_auto/content/overlay.xul
+overlay chrome://komodo/content/commandsOverlay.xul chrome://foundation_auto/content/commandsOverlay.xul
+skin foundation_auto classic/1.0 skin/
+component {9ada4179-f4ed-41c4-9da8-78596358eb68} components/foundation_auto_autocomplete.js
+contract @mozilla.org/autocomplete/search;1?name=foundation_auto-autocomplete {9ada4179-f4ed-41c4-9da8-78596358eb68}
